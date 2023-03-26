@@ -16,7 +16,11 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: (
       <span>
-        <p>TT:q3zb</p>
+        <span>
+          <span>
+            <p>TT:q3zb</p>
+          </span>
+        </span>
       </span>
     ),
   },
@@ -24,7 +28,9 @@ export const Banner00DataSource = {
     className: 'banner0-button',
     children: (
       <span>
-        <p>北仑大道西</p>
+        <span>
+          <p>北仑大道西</p>
+        </span>
       </span>
     ),
     href: 'https://www.123pan.com/s/qxo9-oME7d.html',
@@ -55,7 +61,7 @@ export const Pricing00DataSource = {
                 <h2>
                   <i>
                     <b>(赞助商)</b>
-                  </i>&nbsp;rainbow cat
+                  </i>&nbsp;<b>rainbow cat</b>
                 </h2>
               </span>
             </span>
@@ -67,7 +73,11 @@ export const Pricing00DataSource = {
         name: 'content',
         children: (
           <span>
-            <p>绕过网易的检测，有最新的包</p>
+            <span>
+              <p>
+                <b>绕过网易的检测，有最新的包</b>
+              </p>
+            </span>
           </span>
         ),
         className: 'pricing0-content',
@@ -76,7 +86,11 @@ export const Pricing00DataSource = {
         name: 'pricing',
         children: (
           <span>
-            <p>¥10,000,000</p>
+            <span>
+              <p>
+                <b>¥10,000,000</b>
+              </p>
+            </span>
           </span>
         ),
         className: 'pricing0-pricing',
@@ -87,7 +101,13 @@ export const Pricing00DataSource = {
           icon: 'shopping-cart',
           href: '#',
           type: 'primary',
-          children: '立即购买',
+          children: (
+            <span>
+              <span>
+                <br />
+              </span>
+            </span>
+          ),
         },
       },
     ],
@@ -101,11 +121,15 @@ export const Footer00DataSource = {
     children: (
       <span>
         <span>
-          <span>
-            <span>©2018</span>
-          </span>
+          <b>
+            <span>
+              <span>
+                <span>©2018</span>
+              </span>
+            </span>
+            <span>&nbsp;由zengbai运营 没有备案号</span>
+          </b>
         </span>
-        <span>&nbsp;由zengbai运营 没有备案号</span>
       </span>
     ),
   },
